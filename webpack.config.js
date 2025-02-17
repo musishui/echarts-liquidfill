@@ -13,12 +13,12 @@ module.exports = (env, options) => {
             concatenateModules: true
         },
         externals: {
-            'echarts/lib/echarts': 'echarts'
+            'echarts/core': 'echarts'
         },
         devtool: 'source-map',
         resolve: {
             alias: {
-                'echarts/lib/echarts': 'echarts'
+                'echarts/core': 'echarts'
             }
         }
     }

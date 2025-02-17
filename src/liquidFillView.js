@@ -1,4 +1,4 @@
-import * as echarts from 'echarts/lib/echarts';
+import * as echarts from 'echarts/core';
 import * as numberUtil from 'echarts/lib/util/number';
 import LiquidShape from './liquidFillShape';
 

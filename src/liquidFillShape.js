@@ -1,4 +1,4 @@
-import * as echarts from 'echarts/lib/echarts';
+import * as echarts from 'echarts/core';
 
 export default echarts.graphic.extendShape({
     type: 'ec-liquid-fill',
